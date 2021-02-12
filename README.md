@@ -25,7 +25,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Live Demo
 
-[ Link to the live version](https://vmwhoami-calculator.herokuapp.com/s)
+[ Link to the live version](https://vmwhoami-calculator.herokuapp.com/)
 
 ## Available Scripts
 
