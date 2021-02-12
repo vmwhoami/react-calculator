@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Project Description](#project-description)
+- [How to Play](#How-to-Play)
+
+- [Design](#Design)
+- [Built With](#Built-With)
+- [Live Demo](#Live-Demo)
+- [Using this project](#Using-this-project)
+  - [Installing Dependencies](#Installing-Dependencies)
+  - [Running The Project](#Running-The-Project)
+  - [Testing](#Testing)
+- [Available scripts](#available-scripts)
+
+- [Future Work](#Future-Work)
+- [Author](#Author)
+- [License](#license)
+- [Acknowledgments](#Acknowledgments)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +88,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Live Version

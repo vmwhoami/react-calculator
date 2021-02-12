@@ -1,4 +1,4 @@
-function Calculator() {
+function App() {
   return (
     <>
       <h1>Calculator</h1>
@@ -6,4 +6,4 @@ function Calculator() {
   );
 }
 
-export default Calculator;
+export default App;
