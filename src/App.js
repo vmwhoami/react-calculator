@@ -1,9 +1,11 @@
-function App() {
-  return (
-    <>
-      <h1>Calculator</h1>
-    </>
-  );
-}
+import Display from './components/Display';
+import ButtonPanel from './components/ButtonPanel';
+
+const App = () => (
+  <>
+    <Display />
+    <ButtonPanel />
+  </>
+);
 
 export default App;
