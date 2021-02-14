@@ -1,7 +1,7 @@
 import Big from 'big.js';
 
-const operate = () => {
+const Operate = (numberOne, numberTwo, operation) => {
 
 }
 
-export default operate;
+export default Operate;
