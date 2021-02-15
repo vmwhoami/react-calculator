@@ -1,7 +1,8 @@
+import Operate from "./operate";
 
 const Calculate = (dataObj, btnName) => {
   let { total, next, operation } = dataObj
-  // 'AC', '+/-', '%', '÷'
+
   switch (btnName) {
     case 'AC': {
       total = null;
@@ -15,13 +16,13 @@ const Calculate = (dataObj, btnName) => {
       break;
     }
     case '%': {
-      total *= 0.1
+      (total *= 0.1).toString()
       break;
     }
   }
   return { total, next, operation }
 }
 
-let result = Calculate({ total: 34, next: 4, operation: '+' }, "AC")
+let result = Calculate({ total: 34, next: 4, operation: '+' }, "%")
 console.log(result);
 // export default Calculate;
