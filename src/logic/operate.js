@@ -27,6 +27,3 @@ const Operate = (numberOne, numberTwo, operation) => {
 
 export default Operate;
 
-
-let divide = Operate(200, 20, '÷');
-console.log(divide);
