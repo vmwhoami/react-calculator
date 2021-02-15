@@ -7,6 +7,9 @@ const Operate = (numberOne, numberTwo, operation) => {
   let numT = Big(numberTwo)
   switch (operation) {
     case '÷': {
+      if (numberTwo === 0) {
+        return "Cannot divide by zero"
+      }
       return numO.div(numT).toString()
     }
     case 'X': {
@@ -25,5 +28,5 @@ const Operate = (numberOne, numberTwo, operation) => {
 export default Operate;
 
 
-let divide = Operate(3, 5, '÷');
+let divide = Operate(200, 20, '÷');
 console.log(divide);
