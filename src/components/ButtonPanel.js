@@ -1,17 +1,20 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import Button from './Button';
 
-const ButtonPanel = () => {
+const ButtonPanel = ({ clickHandler }) => {
   const group1 = ['AC', '+/-', '%', '÷'];
   const group2 = ['7', '8', '9', 'X'];
   const group3 = ['4', '5', '6', '-'];
   const group4 = ['1', '2', '3', '+'];
   const group5 = ['0', '.', '='];
 
+  const handleClick = buttonName => clickHandler(buttonName);
+
   return (
     <>
       <div className="group1">
-        {group1.map(element => <Button name={element} key={`${element}`} />)}
+        {group1.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
       </div>
       <div className="group2">
         {group2.map(element => <Button name={element} key={`${element}`} />)}
@@ -28,5 +31,13 @@ const ButtonPanel = () => {
     </>
   );
 };
+
+ButtonPanel.defaultProps = {
+  clickHandler: null,
+};
+ButtonPanel.propTypes = {
+  clickHandler: PropTypes.func,
+};
+
 
 export default ButtonPanel;
