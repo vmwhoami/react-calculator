@@ -1,29 +1,33 @@
 import Big from 'big.js';
 
-
 const Operate = (numberOne, numberTwo, operation) => {
-
-  let numO = Big(numberOne)
-  let numT = Big(numberTwo)
+  const numO = Big(numberOne);
+  const numT = Big(numberTwo);
+  let result = null;
   switch (operation) {
     case '÷': {
       if (numberTwo === 0) {
-        return "Cannot divide by zero"
+        result = 'Cannot divide by zero';
       }
-      return numO.div(numT).toString()
+      result = numO.div(numT);
+      break;
     }
     case 'X': {
-      return numO.mul(numT).toString()
+      result = numO.mul(numT);
+      break;
     }
     case '-': {
-      return numO.minus(numT).toString()
+      result = numO.minus(numT);
+      break;
     }
     case '+': {
-      return numO.plus(numT).toString()
+      result = numO.plus(numT);
+      break;
     }
+    default:
+      break;
   }
-
-}
+  return result.toString();
+};
 
 export default Operate;
-
