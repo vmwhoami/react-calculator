@@ -24,6 +24,11 @@ const Operate = (numberOne, numberTwo, operation) => {
       result = numO.plus(numT);
       break;
     }
+    case '%': {
+      result = numO.mod(numT);
+      break;
+    }
+
     default:
       break;
   }
