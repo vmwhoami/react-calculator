@@ -17,16 +17,16 @@ const ButtonPanel = ({ clickHandler }) => {
         {group1.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
       </div>
       <div className="group2">
-        {group2.map(element => <Button name={element} key={`${element}`} />)}
+        {group2.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
       </div>
       <div className="group3">
-        {group3.map(element => <Button name={element} key={`${element}`} />)}
+        {group3.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
       </div>
       <div className="group4">
-        {group4.map(element => <Button name={element} key={`${element}`} />)}
+        {group4.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
       </div>
       <div className="group5">
-        {group5.map(element => <Button name={element} key={`${element}`} />)}
+        {group5.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
       </div>
     </>
   );
@@ -38,6 +38,5 @@ ButtonPanel.defaultProps = {
 ButtonPanel.propTypes = {
   clickHandler: PropTypes.func,
 };
-
 
 export default ButtonPanel;
