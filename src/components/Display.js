@@ -6,7 +6,6 @@ const Display = props => {
   return (
     <>
       <h2>
-        Display Panel
         {result}
       </h2>
     </>

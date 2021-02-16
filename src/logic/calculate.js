@@ -23,6 +23,12 @@ const Calculate = (dataObj, btnName) => {
       }
       break;
     }
+    case '.': {
+      if (next && !next.toString().includes('.')) {
+        next = `${next.toString()}.`;
+      }
+      break;
+    }
     default:
       break;
   }
