@@ -54,3 +54,6 @@ const Calculate = (dataObj, btnName) => {
 };
 
 export default Calculate;
+
+// const result = Calculate({ total: 12, next: 0, operation: '÷' }, '=');
+// console.log(result);

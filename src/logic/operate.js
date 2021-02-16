@@ -8,8 +8,10 @@ const Operate = (numberOne, numberTwo, operation) => {
     case '÷': {
       if (numberTwo === 0) {
         result = 'Cannot divide by zero';
+        break;
       }
       result = numO.div(numT);
+
       break;
     }
     case 'X': {
