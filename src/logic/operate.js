@@ -6,7 +6,7 @@ const Operate = (numberOne, numberTwo, operation) => {
   let result = null;
   switch (operation) {
     case '÷': {
-      if (numberTwo === 0) {
+      if (numberTwo === '0') {
         result = 'Cannot divide by zero';
         break;
       }
