@@ -2,6 +2,31 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Project Description](#project-description)
+
+- [Design](#Design)
+- [Built With](#Built-With)
+- [Live Demo](#Live-Demo)
+- [Available scripts](#available-scripts)
+
+  - [npm start](#npm-start)
+  - [Testing](#npm-test)
+  - [Builds the app for production](#npm-run-build)
+
+- [Future Work](#Future-Work)
+- [Author](#Author)
+- [License](#license)
+- [Acknowledgments](#Acknowledgments)
+
+## Project Description
+
+### Live Demo
+
+[ Link to the live version](https://vmwhoami-calculator.herokuapp.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +93,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Author
+
+**Vitalie Melnic**
+
+- Github: [@vmwhoami](https://github.com/vmwhoami/)
+- Twitter: [@vmwhoami](https://twitter.com/vmwhoami)
+- Linkedin: [vitalie-melnic](https://www.linkedin.com/in/vitalie-melnic/)
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
