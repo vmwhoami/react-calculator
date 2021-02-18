@@ -63,7 +63,9 @@ nav a:hover{
 .left{
   padding: 20px;
 }
-.right{}
+.right{
+  padding: 10px;
+}
 
 .calculator{
   width:  700px;
