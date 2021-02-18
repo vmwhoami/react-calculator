@@ -6,7 +6,7 @@ const Button = props => {
   const handleClick = buttonName => clickHandler(buttonName);
   return (
     <>
-      <button type="button" onClick={() => handleClick(name)}>{name}</button>
+      <button type="button" className="button" onClick={() => handleClick(name)}>{name}</button>
     </>
   );
 };

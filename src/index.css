@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -24,4 +25,52 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.calculator{
+  width:  700px;
+  background-color: #D1D1D1;
+}
+
+.display{
+  background-color: #858694;
+  height: 100px;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.button{
+  height: 100px;
+  width: 25%;
+  border: 2px solid #D1D1D1;
+  color: black; 
+  font-size: 25px;
+}
+
+.group5 {
+ display: flex;
+}
+
+.group5 button:first-of-type{
+ flex:1;
+}
+.main-operations{
+  background-color: #F5913E;
+}
+
+.main-buttons{
+  background-color: #E0E0E0;
+}
+
+ 
+
+.btn-container{
+  display: flex;
+  flex-wrap: wrap;
 }
