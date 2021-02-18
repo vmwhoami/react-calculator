@@ -14,19 +14,55 @@ const ButtonPanel = ({ clickHandler }) => {
   return (
     <>
       <div className="group1">
-        {group1.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+        {group1.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            clickHandler={handleClick}
+            color="÷"
+          />
+        ))}
       </div>
       <div className="group2">
-        {group2.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+        {group2.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            clickHandler={handleClick}
+            color="X"
+          />
+        ))}
       </div>
       <div className="group3">
-        {group3.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+        {group3.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            clickHandler={handleClick}
+            color="-"
+          />
+        ))}
       </div>
       <div className="group4">
-        {group4.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+        {group4.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            clickHandler={handleClick}
+            color="+"
+          />
+        ))}
       </div>
       <div className="group5">
-        {group5.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+        {group5.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            color="="
+            wide="0"
+            clickHandler={handleClick}
+          />
+        ))}
       </div>
     </>
   );

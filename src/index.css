@@ -50,7 +50,7 @@ code {
   width: 25%;
   border: 2px solid #D1D1D1;
   color: black; 
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .group5 {
@@ -60,7 +60,7 @@ code {
 .group5 button:first-of-type{
  flex:1;
 }
-.main-operations{
+.orange{
   background-color: #F5913E;
 }
 
