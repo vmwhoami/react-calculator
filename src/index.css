@@ -1,3 +1,8 @@
+
+:root{
+--navbar:#02060e;
+--hover:#e6e6e6;
+}
 body {
   margin: 0;
   padding: 0;
@@ -17,20 +22,54 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+a{
+  text-decoration: none;
 }
+
+.nav-container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color:var(--navbar) ;
+  padding: 0 100px;
+}
+
+.nav-container h1{
+  color: white;
+  text-transform: uppercase;
+}
+nav{
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+nav a:hover{
+  color:var(--hover) ;
+}
+
+.maincont{
+  max-width: 1200px;
+  margin: 20px auto 20px auto;
+  display: flex;
+  
+}
+.left{
+  padding: 20px;
+}
+.right{}
 
 .calculator{
   width:  700px;
   background-color: #D1D1D1;
 }
+
 
 .display{
   background-color: #858694;
@@ -51,6 +90,7 @@ code {
   border: 2px solid #D1D1D1;
   color: black; 
   font-size: 30px;
+  background-color: #E0E0E0;
 }
 
 .groups {
@@ -74,3 +114,4 @@ code {
   display: flex;
   flex-wrap: wrap;
 }
+
