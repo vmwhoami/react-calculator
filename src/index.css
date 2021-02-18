@@ -53,11 +53,11 @@ code {
   font-size: 30px;
 }
 
-.group5 {
+.groups {
  display: flex;
 }
 
-.group5 button:first-of-type{
+.wide{
  flex:1;
 }
 .orange{

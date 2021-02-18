@@ -13,7 +13,7 @@ const ButtonPanel = ({ clickHandler }) => {
 
   return (
     <>
-      <div className="group1">
+      <div className="groups">
         {group1.map(element => (
           <Button
             name={element}
@@ -23,7 +23,7 @@ const ButtonPanel = ({ clickHandler }) => {
           />
         ))}
       </div>
-      <div className="group2">
+      <div className="groups">
         {group2.map(element => (
           <Button
             name={element}
@@ -33,7 +33,7 @@ const ButtonPanel = ({ clickHandler }) => {
           />
         ))}
       </div>
-      <div className="group3">
+      <div className="groups">
         {group3.map(element => (
           <Button
             name={element}
@@ -43,7 +43,7 @@ const ButtonPanel = ({ clickHandler }) => {
           />
         ))}
       </div>
-      <div className="group4">
+      <div className="groups">
         {group4.map(element => (
           <Button
             name={element}
@@ -53,7 +53,7 @@ const ButtonPanel = ({ clickHandler }) => {
           />
         ))}
       </div>
-      <div className="group5">
+      <div className="groups">
         {group5.map(element => (
           <Button
             name={element}
