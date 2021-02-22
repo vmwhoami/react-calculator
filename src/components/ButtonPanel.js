@@ -20,6 +20,7 @@ const ButtonPanel = ({ clickHandler }) => {
             key={`${element}`}
             clickHandler={handleClick}
             color="÷"
+            wide=""
           />
         ))}
       </div>
@@ -30,6 +31,7 @@ const ButtonPanel = ({ clickHandler }) => {
             key={`${element}`}
             clickHandler={handleClick}
             color="X"
+            wide=""
           />
         ))}
       </div>
@@ -40,6 +42,7 @@ const ButtonPanel = ({ clickHandler }) => {
             key={`${element}`}
             clickHandler={handleClick}
             color="-"
+            wide=""
           />
         ))}
       </div>
@@ -50,6 +53,7 @@ const ButtonPanel = ({ clickHandler }) => {
             key={`${element}`}
             clickHandler={handleClick}
             color="+"
+            wide=""
           />
         ))}
       </div>
