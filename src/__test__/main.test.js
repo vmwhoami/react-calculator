@@ -6,7 +6,7 @@ import Home from '../pages/home';
 import Calculator from '../pages/calculator';
 import Quote from '../pages/quote';
 
-it('renders correctly', () => {
+it('main renders correctly', () => {
   const tree = renderer
     .create(
       <div className="container">
