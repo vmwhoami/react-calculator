@@ -1,8 +1,9 @@
 import Calculate from '../logic/calculate';
-let object = { total: '12', next: '6', operation: '+' }
-let mult = { total: '12', next: '6', operation: 'X' }
-let subs = { total: '12', next: '6', operation: '-' }
-let division = { total: '12', next: '6', operation: '÷' }
+
+const object = { total: '12', next: '6', operation: '+' };
+const mult = { total: '12', next: '6', operation: 'X' };
+const subs = { total: '12', next: '6', operation: '-' };
+const division = { total: '12', next: '6', operation: '÷' };
 test('AC  should reset all values', () => {
   const obj = Calculate(object, 'AC');
   const { total, next, operation } = obj;
@@ -31,13 +32,11 @@ test(' should calculate adition', () => {
   expect(total).toBe('18');
 });
 
-
 test('Calculate should calculate subsctracion', () => {
   const obj = Calculate(subs, '=');
   const { total } = obj;
   expect(total).toBe('6');
 });
-
 
 test('Calculate should calculate subsctracion', () => {
   const obj = Calculate(mult, '=');

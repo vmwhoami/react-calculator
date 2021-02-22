@@ -18,9 +18,8 @@ it('main renders correctly', () => {
             <Route path="/quote" component={Quote} />
           </Switch>
         </BrowserRouter>
-      </div>
+      </div>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
-
