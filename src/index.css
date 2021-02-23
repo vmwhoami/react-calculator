@@ -1,5 +1,12 @@
+
+:root {
+  --navbar: #02060e;
+  --hover: #e6e6e6;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -16,12 +23,98 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--navbar);
+  padding: 0 100px;
+}
+
+.nav-container h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: var(--hover);
+}
+
+.maincont {
+  max-width: 1200px;
+  margin: 20px auto 20px auto;
+  display: flex;
+}
+
+.left {
+  padding: 20px;
+}
+
+.right {
+  padding: 10px;
+}
+
+.calculator {
+  width: 700px;
+  background-color: #d1d1d1;
+}
+
+.display {
+  background-color: #858694;
+  height: 100px;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.button {
+  height: 100px;
+  width: 25%;
+  border: 2px solid #d1d1d1;
+  color: black;
+  font-size: 30px;
+  background-color: #e0e0e0;
+}
+
+.groups {
+  display: flex;
+}
+
+.wide {
+  flex: 1;
+}
+
+.orange {
+  background-color: #f5913e;
+}
+
+.main-buttons {
+  background-color: #e0e0e0;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
 }

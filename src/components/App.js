@@ -29,10 +29,10 @@ class App extends React.Component {
   render() {
     const { total, next, operation } = this.state;
     return (
-      <>
+      <div className="calculator">
         <Display result={total} next={next} operation={operation} />
         <ButtonPanel clickHandler={this.handleClick} />
-      </>
+      </div>
     );
   }
 }

@@ -5,7 +5,7 @@ const Display = props => {
   const { next, result, operation } = props;
   return (
     <>
-      <h2>
+      <h2 className="display">
         {next || operation || result || '0'}
       </h2>
     </>
