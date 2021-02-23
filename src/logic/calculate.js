@@ -81,7 +81,6 @@ const Calculate = (dataObj, btnName) => {
       next = null;
     }
   }
-  // convToString(total, next, operation)
 
   return convToString(total, next, operation);
 };

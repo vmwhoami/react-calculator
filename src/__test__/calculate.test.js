@@ -12,7 +12,7 @@ test('AC  should reset all values', () => {
   expect(operation).toBe(null);
 });
 
-test('+/-  should make all number negative', () => {
+test('+/-  should  negate next and total', () => {
   const obj = Calculate(object, '+/-');
   const { total, next, operation } = obj;
   expect(total).toBe(-12);
@@ -20,7 +20,7 @@ test('+/-  should make all number negative', () => {
   expect(operation).toBe('+');
 });
 
-test('+/-  should make all number negative', () => {
+test('%  ', () => {
   const obj = Calculate(object, '%');
   const { total } = obj;
   expect(total).toBe(0.12);
@@ -38,7 +38,7 @@ test('Calculate should calculate subsctracion', () => {
   expect(total).toBe('6');
 });
 
-test('Calculate should calculate subsctracion', () => {
+test('Calculate should calculate multiplication', () => {
   const obj = Calculate(mult, '=');
   const { total } = obj;
   expect(total).toBe('72');
