@@ -13,20 +13,60 @@ const ButtonPanel = ({ clickHandler }) => {
 
   return (
     <>
-      <div className="group1">
-        {group1.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+      <div className="groups">
+        {group1.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            clickHandler={handleClick}
+            color="÷"
+            wide=""
+          />
+        ))}
       </div>
-      <div className="group2">
-        {group2.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+      <div className="groups">
+        {group2.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            clickHandler={handleClick}
+            color="X"
+            wide=""
+          />
+        ))}
       </div>
-      <div className="group3">
-        {group3.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+      <div className="groups">
+        {group3.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            clickHandler={handleClick}
+            color="-"
+            wide=""
+          />
+        ))}
       </div>
-      <div className="group4">
-        {group4.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+      <div className="groups">
+        {group4.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            clickHandler={handleClick}
+            color="+"
+            wide=""
+          />
+        ))}
       </div>
-      <div className="group5">
-        {group5.map(element => <Button name={element} key={`${element}`} clickHandler={handleClick} />)}
+      <div className="groups">
+        {group5.map(element => (
+          <Button
+            name={element}
+            key={`${element}`}
+            color="="
+            wide="0"
+            clickHandler={handleClick}
+          />
+        ))}
       </div>
     </>
   );
